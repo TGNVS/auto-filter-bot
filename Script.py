@@ -30,9 +30,19 @@ class script(object):
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝚅𝙿𝚂\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tgnvs><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
-    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will Create One Bot For You<b>
-» Contact Me @tgnvs<b>"""
+    SOURCE_TXT = """<b>Donation</b>
+<b>Thanks for showing interest in donation
+Donate Us To Keep Alive
+Continously Alive
+
+You Can Send Any Amount
+Donate Only One Rupee
+Of 10₹,20₹,30₹,50₹,100₹ 😁
+
+💸Payment Methods:
+Only UPI
+UPI:-</b> `tgnvs@airtel`
+-<b> <a href=https://upier.vercel.app/pay/tgnvs@airtel?am=15>Donation Link</a></b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
