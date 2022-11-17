@@ -41,7 +41,7 @@ Of 10₹,20₹,30₹,50₹,100₹ 😁
 
 💸Payment Methods:
 Only UPI
-UPI:-</b> `tgnvs@airtel`
+UPI:-</b> tgnvs@airtel
 -<b> <a href=https://upier.vercel.app/pay/tgnvs@airtel?am=15>Donation Link</a></b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
