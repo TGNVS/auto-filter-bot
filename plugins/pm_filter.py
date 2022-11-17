@@ -413,11 +413,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs')
-            ],[
+            InlineKeyboardButton('♥️ Donation', callback_data='source')
+        ],[
+            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
             InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
             ],[
-            InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
+            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -428,6 +430,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Entered Back To Main Menu')
     elif query.data == "help":
         buttons = [[
+            InlineKeyboardButton('♥️ Donation', callback_data='source')
+        ],[
             InlineKeyboardButton('𝙈𝙖𝙣𝙪𝙖𝙡 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='manuelfilter'),
             InlineKeyboardButton('𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='autofilter')
         ], [
@@ -446,10 +450,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You clicked About Me")
         buttons = [[
-            InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
-            InlineKeyboardButton('🔐 𝘾𝙇𝙊𝙎𝙀', callback_data='close_data')
+            InlineKeyboardButton('♥️ Donation', callback_data='source')
         ],[
+            InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
             InlineKeyboardButton('🔮 𝙎𝙏𝘼𝙏𝙐𝙎', callback_data='stats')
+        ],[
+            InlineKeyboardButton('🔐 𝘾𝙇𝙊𝙎𝙀', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -460,7 +466,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         await query.answer("You Entered Into Paid Promotion Tab")
         buttons = [[
-            InlineKeyboardButton('👀ᴍᴀɪɴ ᴍᴇɴᴜ👀', callback_data='start')
+            InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@airtel')
+        ],[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
