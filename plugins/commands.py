@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇ🤖', url='https://t.me/search_zone')
+                InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇ🤖', url='https://t.me/tgnvs')
             ],
             [
-                InlineKeyboardButton('Buy 𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/GreyMatter_Owner"),
+                InlineKeyboardButton('Join Movie Channel', url=f"https://t.me/nvsmovielink"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
