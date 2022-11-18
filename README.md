@@ -56,12 +56,10 @@ Read [this](https://telegram.dog/sources_cods) before you start messing up with 
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/AM-ROBOTS/AdvAnurag/blob/main/info.py) for more
 ## EXTRA FEATURES
-* `URL_SHORTENR_WEBSITE`: URL Shortener Website Link ( Without https://)
-* `URL_SHORTNER_WEBSITE_API`: URL Shortener Website API key
+* `dulink_SHORTNER_WEBSITE_API`: URL Shortener Website API key [dulink](https://du-link.in/ref/Nobuddy)
 * `SELF_DELETE`: True if SELF_DELETE is On, False if Off
 * `SELF_DELETE_SECONDS`: Enter Seconds to be SELF_DELETE 
-* `START_TXT`: Enter Your Start Message
-* `ABOUT_TXT`: Enter Your About Message 
+
 
 
 ## Deploy
