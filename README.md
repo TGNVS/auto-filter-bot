@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BUDDY1609/auto-filter-bot/main/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Support">
+  <img src="https://raw.githubusercontent.com/TGNVS/auto-filter-bot/shortener/screenshort/Screenshot%202022-11-17%20092848.png" alt="Koyeb Screenshot">
 </p>
 <h1 align="center">
   <b>Koyeb Support</b>
