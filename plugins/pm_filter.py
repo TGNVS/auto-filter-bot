@@ -684,7 +684,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/nvstg')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/tgnvs/8')]
 )
 
     
